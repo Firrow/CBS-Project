@@ -1,0 +1,91 @@
+/*Code qui marche mais pas responsive*/
+header{
+	display: flex;
+}
+
+/*Toute la barre grise*/
+#menu_barre {
+	margin: -10px;
+	padding: 10px;
+	height: 30px;
+	width : 100%;
+	background-color: rgb(195,195,195);
+	display: inline-block;
+}
+
+/*barreRecherche*/
+#barreRecherche {
+	height: 29px;
+	width : 30%;
+	background-color: rgb(240,240,240);
+	border-style: solid;
+	border-color: rgb(165,165,165);
+	border-width: 2px; 
+	margin-left: 7px;
+}
+.barreRecherche{
+	width: 300px;
+	height: 29px;
+	position: relative;
+	top: -45px; left: 45px;
+}
+.boutonRecherche{
+	height: 30px;
+	width: 30px;
+	position: relative;
+	top: 10px; left: 10px;
+	background-size: 100%;
+	background-image:url("logos/Search1.png");
+	border: none;
+}
+.form-control{
+	height: 25px;
+	width: 250px;
+	margin-top: 5px;
+}
+
+
+
+/*Boutons*/
+.boutons {
+	position: absolute;
+	position: relative;
+	top: 0px; left: 1235px;
+}
+
+#menuBurger {
+	height: 32px;
+	width : 32px;
+	position: relative;
+	top: 0px; left: -1235px;
+}
+
+.boutons #boutonDossier{
+	height: 30px;
+	width: 30px;
+	padding-right: 10px;
+}
+
+.boutons #boutonDownload{
+	height: 30px;
+	width: 30px;
+	padding-right: 10px;
+}
+
+.boutons #boutonPDF{
+	height: 30px;
+	width: 30px;
+	padding-right: 10px;
+}
+
+.boutons #boutonOptions{
+	height: 30px;
+	width: 30px;
+	padding-right: 10px;
+}
+
+.boutons #boutonLogoCBS{
+	height: 30px;
+	width: 30px;
+	padding-right: 10px;
+}
