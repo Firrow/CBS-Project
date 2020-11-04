@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Base Site</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
 
 	<header>
 		<div class="line">
@@ -61,6 +53,3 @@
 				</form> 
 			</nav>
 		</div> -->
-
-</body>
-</html>
