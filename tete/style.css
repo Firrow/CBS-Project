@@ -1,0 +1,94 @@
+/*RESPONSIVE POUR 245px/500px<page<1000px */
+*{
+	margin : 0;
+	padding: 0;
+}
+
+header{
+	margin-top: -7px;
+	width: 100vw;
+	height: 45px;
+	background-color: rgb(195,195,195);
+}
+
+#blocGauche{
+	width: 40%;
+	justify-content: left;
+}
+
+#void{
+	width: 37%;
+}
+
+#blocDroite{
+	margin-right: 10px;
+	width: 23%;
+}
+
+.line{
+	margin-top: 7px; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+
+
+img, button{
+	width: 29px;
+	height: 29px;
+}
+button{
+	background-size: 105%;
+	border : none;
+	position : absolute;
+	margin-left: 6px;
+	background-color: rgb(195,195,195);
+	background-image:url("logos/Search1.png");
+}
+
+#menuBurger{
+	margin-left: 10px;
+} 
+.form-control{ 
+	/*barre recherche*/
+	height: 29px;
+	width: 300px;
+	padding-top: 2px;
+	padding-left: 5px; 
+	margin-left: 10px;
+}
+
+@media screen and (max-width: 570px)
+{
+	#void{
+		display: none;
+	}
+	#blocDroite *{
+		display: none;
+	}
+
+	#blocGauche{
+		width: 100%;
+		margin-left: 30px;
+		justify-content: center;
+	}
+
+}
+
+@media screen and (min-width: 600px)
+{
+	#blocDroite *{
+		justify-content: none;
+	}
+
+	#void{
+		width: 45%;
+	}
+
+	#blocDroite{
+		margin-right: 10px;
+		width: 15%;
+	}
+}
